@@ -6,13 +6,16 @@
   
   body {
     font-family: Arial, sans-serif;
+    background-color: #036e9c;
   }
   
   /*-- Menu Responsive (Logo, Nombre y Menu) --*/
   
   nav {
-    background-color: #036e9c;
     color: #fff;
+    background: rgb(255, 255, 255, .1);
+    backdrop-filter: blur(20px);
+    position: static;
   }
   
   .navbar {
@@ -54,52 +57,47 @@
   /*-- sección de intro --*/
   
   .intro-index {
-    padding: 40px 20px;
-    background-color: rgb(232, 252, 223);
-  }
-  
-  .pop-intro {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1.3em;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-  }
+    background-color: rgb(230, 253, 249);
 
-  .intro-text {
-    width: 55%;
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
 
-  .btn-intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+  .intro-index h1 {
+    margin:50px 30px 10px;
+  }
+  
+  .intro-index img {
+    height: 250px;
+    background-color: #9b9795;
   }
 
-  .btn-intro a {
-    text-decoration: none;
-    font-size: 1.1em;
-    width: 150px;
-    background-color: aqua;
-    text-align: center;
-    border-radius: 10px;
-    padding: 5px;
-  }
+.boxes-intro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2em;
+  margin: 20px 30px;
+}
 
-  .pop-intro img {
-    width: 45%;
-    background-color: #927d71;
-    height: 300px;
-  }
+.box-intro {
+  width: 55%;
+}
+
+.box-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 2em;
+}
+
+.box-links a {
+  text-decoration: none;
+  background-color: #036e9c;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
   
 /*-- Sección cards servicios --*/
 
